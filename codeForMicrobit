@@ -1,0 +1,10 @@
+from microbit import *
+import music
+
+
+while True: 
+    pin1.write_digita l(1)
+    music.play(music.DADADADUM)  
+    pin1.write_digital(0)
+    sleep(1000)
+    
